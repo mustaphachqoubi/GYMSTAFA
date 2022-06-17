@@ -1,0 +1,41 @@
+.exercises{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.exercice{
+    margin: 20px;
+    max-height:140px;
+}
+
+.changer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.toDiet{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dietBtn{
+    padding: 7px 40px;
+    border: 2px solid var(--primary-color);
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.dietBtn:hover{
+    color: var(--primary-color);
+    background: var(--secondary-color);
+}

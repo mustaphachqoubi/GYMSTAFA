@@ -1,0 +1,67 @@
+.plans{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px
+}
+.plan{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../../assets/nowBody.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vh;
+    height:70vh;
+    margin: 20px;
+    position: relative;
+}
+
+.planTitle{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.priceContainer{
+    background: var(--primary-color);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.btn{
+    padding: 7px 30px;
+    border: 2px solid var(--secondary-color);
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    box-shadow: none;
+}
+
+.item{
+    margin: 10px;
+}
+
+@media screen and (max-width: 500px){
+    .planTitle{
+        font-size: 30px;
+        padding: 30px;
+        margin-top: 50px;
+    }
+    .plan{
+        width: 40vh;
+        height:60vh;
+    }
+}

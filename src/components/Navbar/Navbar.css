@@ -1,0 +1,68 @@
+.navbar{
+    border-bottom: 1px solid var(--black-color);
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white-color);
+}
+
+.btnAndListContainer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 2; */
+}
+
+.navbarListItem{
+    text-decoration: none;
+    margin: 20px;
+    color: var(--black-color);
+    font-weight: 450;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo{
+    color: var(--black-color);
+}
+
+.navbarLogoList{
+    padding-left: 20px;
+}
+
+.tafa{
+    color: var(--primary-color);
+}
+
+.navbarBtn{
+    padding: 7px 30px;
+    border: none;
+    background: var(--primary-color);
+    color: var(--white-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.navbarBtn:hover{
+    opacity: 0.9;
+}
+
+.humberger{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .navbarList{
+        display: none;
+    }
+    .navbarBtnList{
+        display: none;
+    }
+    .humberger{
+        display: block;
+    }
+}
